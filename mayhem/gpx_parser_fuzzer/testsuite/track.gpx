@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="x-track">
+<trk><name>ride</name><trkseg>
+<trkpt lat="30.280001" lon="120.160002"><ele>12.5</ele><time>2021-05-01T08:30:15Z</time></trkpt>
+<trkpt lat="30.280101" lon="120.160302"><ele>13.0</ele><time>2021-05-01T08:30:16Z</time></trkpt>
+<trkpt lat="-33.865143" lon="151.209900"><ele>-3.25</ele><time>2021-05-01T08:30:17Z</time></trkpt>
+</trkseg></trk>
+</gpx>

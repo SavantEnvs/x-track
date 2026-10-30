@@ -1,0 +1,9 @@
+project: savantenvs/x-track
+target: gpx_parser_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/gpx_parser_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/gpx_parser_fuzzer
+    libfuzzer: true
+    timeout: 5

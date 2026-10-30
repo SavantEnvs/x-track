@@ -1,0 +1,9 @@
+project: savantenvs/x-track
+target: msgpack_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/msgpack_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/msgpack_fuzzer
+    libfuzzer: true
+    timeout: 5
